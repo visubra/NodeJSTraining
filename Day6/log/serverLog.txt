@@ -1,0 +1,6 @@
+Request Method : GET; Request url:/; Date: Thu Feb 02 2023 12:59:52 GMT+0800 (Singapore Standard Time)::1 - - [02/Feb/2023:04:59:52 +0000] "GET / HTTP/1.1" 200 24 "-" "PostmanRuntime/7.30.0"
+Request Method : GET; Request url:/employees; Date: Thu Feb 02 2023 13:00:51 GMT+0800 (Singapore Standard Time)::1 - - [02/Feb/2023:05:00:51 +0000] "GET /employees HTTP/1.1" 200 423 "-" "PostmanRuntime/7.30.0"
+Request Method : POST; Request url:/employees; Date: Thu Feb 02 2023 13:02:23 GMT+0800 (Singapore Standard Time)::1 - - [02/Feb/2023:05:02:23 +0000] "POST /employees HTTP/1.1" 200 - "-" "PostmanRuntime/7.30.0"
+Request Method : GET; Request url:/employees; Date: Thu Feb 02 2023 13:02:31 GMT+0800 (Singapore Standard Time)::1 - - [02/Feb/2023:05:02:31 +0000] "GET /employees HTTP/1.1" 200 486 "-" "PostmanRuntime/7.30.0"
+Request Method : PUT; Request url:/employees; Date: Thu Feb 02 2023 13:06:09 GMT+0800 (Singapore Standard Time)::1 - - [02/Feb/2023:05:06:09 +0000] "PUT /employees HTTP/1.1" 200 20 "-" "PostmanRuntime/7.30.0"
+Request Method : GET; Request url:/cake.jpg; Date: Thu Feb 02 2023 13:10:12 GMT+0800 (Singapore Standard Time)::1 - - [02/Feb/2023:05:10:12 +0000] "GET /cake.jpg HTTP/1.1" 200 307829 "-" "PostmanRuntime/7.30.0"

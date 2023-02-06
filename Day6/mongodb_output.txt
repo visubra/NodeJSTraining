@@ -1,0 +1,76 @@
+> db.createCollection('employee')
+{ "ok" : 1 }
+> db.employee.insertOne({empId: 111, empName: 'Emp1', salary: 1234})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da64b9ef8486df13b4b0af")
+}
+> db.employee.insertOne({empId: 222, empName: 'April', salary: 5678})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da6586ef8486df13b4b0b0")
+}
+> db.employee.insertOne({empId: 333, empName: 'May', salary: 91011})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da659aef8486df13b4b0b1")
+}
+> db.employee.insertOne({empId: 444, empName: 'June', salary: 121314})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da65aeef8486df13b4b0b2")
+}
+> db.employee.insertOne({empId: 555, empName: 'August', salary: 53627})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da65c7ef8486df13b4b0b3")
+}
+> db.employee.insertOne({empId: 666, empName: 'Lilac', salary: 8493})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da65e0ef8486df13b4b0b4")
+}
+> db.employee.insertOne({empId: 777, empName: 'RJ', salary: 3829})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da65ffef8486df13b4b0b5")
+}
+> db.employee.insertOne({empId: 888, empName: 'Red', salary: 64739})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da6615ef8486df13b4b0b6")
+}
+> db.employee.insertOne({empId: 999, empName: 'Wednesday', salary: 6666})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da6644ef8486df13b4b0b7")
+}
+> db.employee.insertOne({empId: 1010, empName: 'Tenten', salary: 7829})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("63da6659ef8486df13b4b0b8")
+}
+> db.employee.find()
+{ "_id" : ObjectId("63da64b9ef8486df13b4b0af"), "empId" : 111, "empName" : "Emp1", "salary" : 1234 }
+{ "_id" : ObjectId("63da6586ef8486df13b4b0b0"), "empId" : 222, "empName" : "April", "salary" : 5678 }
+{ "_id" : ObjectId("63da659aef8486df13b4b0b1"), "empId" : 333, "empName" : "May", "salary" : 91011 }
+{ "_id" : ObjectId("63da65aeef8486df13b4b0b2"), "empId" : 444, "empName" : "June", "salary" : 121314 }
+{ "_id" : ObjectId("63da65c7ef8486df13b4b0b3"), "empId" : 555, "empName" : "August", "salary" : 53627 }
+{ "_id" : ObjectId("63da65e0ef8486df13b4b0b4"), "empId" : 666, "empName" : "Lilac", "salary" : 8493 }
+{ "_id" : ObjectId("63da65ffef8486df13b4b0b5"), "empId" : 777, "empName" : "RJ", "salary" : 3829 }
+{ "_id" : ObjectId("63da6615ef8486df13b4b0b6"), "empId" : 888, "empName" : "Red", "salary" : 64739 }
+{ "_id" : ObjectId("63da6644ef8486df13b4b0b7"), "empId" : 999, "empName" : "Wednesday", "salary" : 6666 }
+{ "_id" : ObjectId("63da6659ef8486df13b4b0b8"), "empId" : 1010, "empName" : "Tenten", "salary" : 7829 }
+> db.employee.renameCollection('employees')
+{ "ok" : 1 }
+> db.employees.find()
+{ "_id" : ObjectId("63da64b9ef8486df13b4b0af"), "empId" : 111, "empName" : "Emp1", "salary" : 1234 }
+{ "_id" : ObjectId("63da6586ef8486df13b4b0b0"), "empId" : 222, "empName" : "April", "salary" : 5678 }
+{ "_id" : ObjectId("63da659aef8486df13b4b0b1"), "empId" : 333, "empName" : "May", "salary" : 91011 }
+{ "_id" : ObjectId("63da65aeef8486df13b4b0b2"), "empId" : 444, "empName" : "June", "salary" : 121314 }
+{ "_id" : ObjectId("63da65c7ef8486df13b4b0b3"), "empId" : 555, "empName" : "August", "salary" : 53627 }
+{ "_id" : ObjectId("63da65e0ef8486df13b4b0b4"), "empId" : 666, "empName" : "Lilac", "salary" : 8493 }
+{ "_id" : ObjectId("63da65ffef8486df13b4b0b5"), "empId" : 777, "empName" : "RJ", "salary" : 3829 }
+{ "_id" : ObjectId("63da6615ef8486df13b4b0b6"), "empId" : 888, "empName" : "Red", "salary" : 64739 }
+{ "_id" : ObjectId("63da6644ef8486df13b4b0b7"), "empId" : 999, "empName" : "Wednesday", "salary" : 6666 }
+{ "_id" : ObjectId("63da6659ef8486df13b4b0b8"), "empId" : 1010, "empName" : "Tenten", "salary" : 7829 }
